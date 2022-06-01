@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Luxury Apartment",
+        "description": "This Tower very high demand corner junior one bedroom plus a large balcony boasting full open NYC views. You need to see the views to believe them.",
+        "img": "https://i.ibb.co/4VsRmRf/1.jpg",
+        "price": "500000"
+    },
+    {
+        "id": 2,
+        "name": "Large family Home",
+        "description": "Located in the resort-like community on the Atlantic Ocean Oceana Condominium and Club this prime 3 bedroom / 3 baths residence boasts two exposures with direct ocean views, a balcony, separate bathroom wings and a large island windowed kitchen.",
+        "img": "https://i.ibb.co/7ygHs0S/2.jpg",
+        "price": "550000"
+    },
+    {
+        "id": 3,
+        "name": "Modern Apartment",
+        "description": "The location is one of the best in NYC! – Central Park, Broadway, Rockefeller Center, the Theater area plus D, E, N, R, Q & 1 subway lines are a short walk from the building.",
+        "img": "https://i.ibb.co/NCKqQgM/3.jpg",
+        "price": "540000"
+    },
+    {
+        "id": 4,
+        "name": "Penthouse Apartment",
+        "description": "High floor condo with open city views. This alcove studio can be converted to a one bedroom. The condo has a renovated kitchen and bath.",
+        "img": "https://i.ibb.co/0YzPF4B/4.jpg",
+        "price": "600000"
+    },
+    {
+        "id": 5,
+        "name": "Light And Modern Apartment",
+        "description": " The apartment features oversized windows, high ceilings, huge walk in closets, beautiful hardwood floors and oversized marble baths with marble vanities. ",
+        "img": "https://i.ibb.co/4tWmgWs/5.jpg",
+        "price": "490000"
+    },
+    {
+        "id": 6,
+        "name": "High quality finishing apartment",
+        "description": "It's a condo in the nature, with beautiful views, lots of trees and plants, and a few big rocks here and there. The finishing of this apartment is very luxury and comfortable ",
+        "img": "https://i.ibb.co/YjF7748/6.jpg",
+        "price": "520000"
+    },
+    {
+        "id": 7,
+        "name": "Single family Home",
+        "description": "The Villa is located five minutes from the centre of Torrevieja, in the Urbanization Los Balcones, one of the most prestigious and the most authentic Mallorca, with views to the salt lakes, emphasizing its clean air, its pinadas quiet urbanization.",
+        "img": "https://i.ibb.co/ncD2vQs/7.jpg",
+        "price": "570000"
+    },
+    {
+        "id": 8,
+        "name": "Two Bed Room Apartment",
+        "description": "Bright apartment with ocean views in a residence on the first line of the beach, North Miami Beach, Florida, USA",
+        "img": "https://i.ibb.co/yP1K0Ky/8.jpg",
+        "price": "635000"
+    },
+    {
+        "id": 9,
+        "name": "Luxury Green Apartment",
+        "description": "A modern living space surrounded by nature.The Nook is a condo in Asheville, NC. The land around it was left untouched, and the surrounding apartments are built from sustainable materials.",
+        "img": "https://i.ibb.co/4s84stv/9.jpg",
+        "price": "700000"
+    },
+    {
+        "id": 10,
+        "name": "Penthouse Apartment",
+        "description": "New furnished apartment with ocean views, in a residence with a pool and a parking, 100 meters from the beach, Downtown, Miami, Florida, USA",
+        "img": "https://i.ibb.co/hVGWgP8/10.jpg",
+        "price": "690000"
+    },
+    {
+        "id": 11,
+        "name": "Elegant House",
+        "description": "Spacious open-plan apartments with large terraces in a residence with a swimming pool, lounge areas and tennis courts, Sunrise",
+        "img": "https://i.ibb.co/D87CW2T/11.jpg",
+        "price": "640000"
+    },
+    {
+        "id": 12,
+        "name": "Luxury Finishing House",
+        "description": "Elite apartments with terraces and city views in a high-rise condominium with tropical gardens, pools and a spa, in the center of Miami, USA",
+        "img": "https://i.ibb.co/bQk2kyv/12.jpg",
+        "price": "675000"
+    }
+]

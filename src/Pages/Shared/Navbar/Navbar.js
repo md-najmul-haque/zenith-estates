@@ -1,20 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'
 
 const Navbar = () => {
-
     const menuItem =
         <>
-            < Link to='/' > Home</Link>
-            < Link to='/project' > Project</Link>
-            < Link to='/contact' > Contact</Link>
-            < Link to='/about' > About</Link>
+            <li><Link to='/'>Home</Link></li>
+            <li><Link to='/project'>Project</Link></li>
+            <li><Link to='/'>Blog</Link></li>
+            <li><Link to='/contact'>Contact</Link></li>
+            <li><Link to='/login'>Login</Link></li>
         </>
 
-
     return (
-        <div class="navbar absolute text-white top-0">
+        <div class="navbar absolute top-0 text-white">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -32,7 +30,6 @@ const Navbar = () => {
                 </ul>
             </div>
         </div>
-
     );
 };
 

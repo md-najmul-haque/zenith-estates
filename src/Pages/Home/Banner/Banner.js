@@ -4,7 +4,7 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div class="hero min-h-screen" banner-container>
+        <div class="hero min-h-screen">
             <img src={banner1} style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} alt="" />
             <div class="hero-overlay bg-opacity-60"></div>
 

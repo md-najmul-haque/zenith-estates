@@ -1,34 +1,36 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
-import { useSignInWithFacebook, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useSignInWithEmailAndPassword, useSignInWithFacebook, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
 
 const Login = () => {
+    const [signInWithEmailAndPassword, user, loading, error,] = useSignInWithEmailAndPassword(auth);
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
     const [signInWithFacebook, fUser, fLoading, fError] = useSignInWithFacebook(auth);
     const navigate = useNavigate()
 
     const { register, formState: { errors }, handleSubmit } = useForm();
-    const onSubmit = data => {
-        console.log(data);
-    }
 
     let errorItem;
 
-    if (gError || fError) {
+    if (error || gError || fError) {
         return (
 
-            errorItem = <p className='text-center text-red-600'>Error: {gError?.message || fError?.message}</p>
+            errorItem = <p className='text-center text-red-600'>Error: {error?.message || gError?.message || fError?.message}</p>
 
         );
     }
-    if (gLoading || fLoading) {
+    if (loading || gLoading || fLoading) {
         return <Loading />
     }
 
-    if (gUser || fUser) {
+    const onSubmit = data => {
+        signInWithEmailAndPassword(data.email, data.password)
+    }
+
+    if (user || gUser || fUser) {
         navigate('/')
     }
 

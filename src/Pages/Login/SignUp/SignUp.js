@@ -13,15 +13,10 @@ const SignUp = () => {
     const navigate = useNavigate()
 
     const { register, formState: { errors }, handleSubmit, reset } = useForm();
-    const onSubmit = async data => {
-        await createUserWithEmailAndPassword(data.email, data.password)
-        await updateProfile({ displayName: data.name });
-        reset()
-    }
 
     let errorItem;
 
-    if (user || gError || fError || updateError) {
+    if (error || gError || fError || updateError) {
         return (
 
             errorItem = <p className='text-center text-red-600'>Error: {error?.message || gError?.message || fError?.message}</p>
@@ -32,7 +27,13 @@ const SignUp = () => {
         return <Loading />
     }
 
-    if (gUser || fUser) {
+    const onSubmit = async data => {
+        await createUserWithEmailAndPassword(data.email, data.password)
+        await updateProfile({ displayName: data.name });
+        reset()
+    }
+
+    if (user || gUser || fUser) {
         navigate('/')
     }
 

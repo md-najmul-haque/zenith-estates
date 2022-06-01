@@ -23,6 +23,9 @@ const Navbar = () => {
             <li><Link to='/'>Blog</Link></li>
             <li><Link to='/contact'>Contact</Link></li>
             {
+                user ? <li><Link to=''>{user.displayName}</Link></li> : ''
+            }
+            {
                 user ? <li><Link onClick={handleSignOut} to='/'>Sign Out</Link></li> : <li><Link to='/login'>Login</Link></li>
             }
         </>

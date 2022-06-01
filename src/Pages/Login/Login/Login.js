@@ -1,9 +1,12 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const { register, formState: { errors }, handleSubmit } = useForm();
-    const onSubmit = data => { console.log(data); }
+    const onSubmit = data => {
+        console.log(data);
+    }
     return (
 
 
@@ -38,7 +41,7 @@ const Login = () => {
 
                         <div class="form-control w-full max-w-xs">
                             <input
-                                type="text"
+                                type="password"
                                 placeholder="Enter Password"
                                 class="input input-bordered w-full max-w-xs"
                                 {...register("password", {
@@ -58,9 +61,12 @@ const Login = () => {
                             </label>
                         </div>
 
-
-                        <input class="btn btn-primary w-full max-w-xs" type="submit" />
+                        <input type="submit" class="btn btn-primary w-full max-w-xs" value='Login' />
+                        <p className='mt-2'>New in Zenith Estates?<Link to='/signup' class="text-blue-600 pl-2">Create New Account</Link></p>
                     </form>
+                    <div class="divider">or</div>
+                    <button class="btn btn-primary">Continue with Google</button>
+                    <button class="btn btn-primary">Continue with Facebook</button>
                 </div>
             </div>
 

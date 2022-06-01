@@ -48,7 +48,7 @@ const Login = () => {
                                 {...register("email", {
                                     required: {
                                         value: true,
-                                        message: 'Email address is required'
+                                        message: 'Email is required'
                                     },
 
                                     pattern: {
@@ -70,7 +70,7 @@ const Login = () => {
                                 {...register("password", {
                                     required: {
                                         value: true,
-                                        message: 'Password address is required'
+                                        message: 'Password is required'
                                     },
 
                                     minLength: {

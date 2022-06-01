@@ -3,14 +3,14 @@
         "id": 1,
         "name": "Luxury Apartment",
         "description": "This Tower very high demand corner junior one bedroom plus a large balcony boasting full open NYC views. You need to see the views to believe them.",
-        "img": "https://i.ibb.co/4VsRmRf/1.jpg",
+        "img": "https://i.ibb.co/hVGWgP8/10.jpg",
         "price": "500000"
     },
     {
         "id": 2,
         "name": "Large family Home",
         "description": "Located in the resort-like community on the Atlantic Ocean Oceana Condominium and Club this prime 3 bedroom / 3 baths residence boasts two exposures with direct ocean views, a balcony, separate bathroom wings and a large island windowed kitchen.",
-        "img": "https://i.ibb.co/7ygHs0S/2.jpg",
+        "img": "https://i.ibb.co/yP1K0Ky/8.jpg",
         "price": "550000"
     },
     {
@@ -52,21 +52,21 @@
         "id": 8,
         "name": "Two Bed Room Apartment",
         "description": "Bright apartment with ocean views in a residence on the first line of the beach, North Miami Beach, Florida, USA",
-        "img": "https://i.ibb.co/yP1K0Ky/8.jpg",
+        "img": "https://i.ibb.co/7ygHs0S/2.jpg",
         "price": "635000"
     },
     {
         "id": 9,
         "name": "Luxury Green Apartment",
         "description": "A modern living space surrounded by nature.The Nook is a condo in Asheville, NC. The land around it was left untouched, and the surrounding apartments are built from sustainable materials.",
-        "img": "https://i.ibb.co/4s84stv/9.jpg",
+        "img": "https://i.ibb.co/4VsRmRf/1.jpg",
         "price": "700000"
     },
     {
         "id": 10,
         "name": "Penthouse Apartment",
         "description": "New furnished apartment with ocean views, in a residence with a pool and a parking, 100 meters from the beach, Downtown, Miami, Florida, USA",
-        "img": "https://i.ibb.co/hVGWgP8/10.jpg",
+        "img": "https://i.ibb.co/4s84stv/9.jpg",
         "price": "690000"
     },
     {

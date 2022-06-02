@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Richard Branson",
         "feedback": "Zenith Estates has clearly become the best online tool to help the renter identify and connect with rental apartments in Chicago.  The website is very intuitive, and provides all the information you need to make an informed decision.",
         "img": "https://i.ibb.co/NNTp5pP/1.png",
@@ -7,6 +8,7 @@
         "rating": 5
     },
     {
+        "id": 2,
         "name": "Serena Gunther",
         "feedback": "Zenith team gives our organization great support. They are knowledgeable, responsive and thorough; and all this at an excellent value.",
         "img": "https://i.ibb.co/cgf0Ck9/2.png",
@@ -14,13 +16,15 @@
         "rating": 5
     },
     {
+        "id": 3,
         "name": "Anderson Ambani",
-        "feedback": "Comfortable apartment in good location for walking around Split.The location and views were amazing, the pictures don’t do it justice.",
+        "feedback": "Comfortable apartment in good location for walking around Split.The location and views were amazing",
         "img": "https://i.ibb.co/7kcX8GG/5.png",
         "country": "Germany",
         "rating": 5
     },
     {
+        "id": 4,
         "name": "Jack Dorsey",
         "feedback": "Good location, spotlessly clean, host was very helpful even arranging a taxi to the airport made our stay perfect. Great location and really lovely apartment.",
         "img": "https://i.ibb.co/FsRW5BH/4.jpg",
@@ -28,6 +32,7 @@
         "rating": 5
     },
     {
+        "id": 5,
         "name": "Tracy Caulkins",
         "feedback": "The rooms were simply beautiful. And host was very accommodating. You're close to the core of the City as well have an amazing view of the water. A great atmospher for any traveller.",
         "img": "https://i.ibb.co/9qF5Tgh/3.png",
@@ -35,6 +40,7 @@
         "rating": 5
     },
     {
+        "id": 6,
         "name": "Jackie Joyner",
         "feedback": "It was exactly what I was looking for. There service and delivery is excellent. Also their apartment and service is best. Highly recommended",
         "img": "https://i.ibb.co/x3vPd65/6.jpg",

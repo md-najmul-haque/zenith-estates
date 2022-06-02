@@ -1,10 +1,10 @@
 import React from 'react';
 import banner1 from '../../../assets/banner/banner1.jpg'
-import './Banner.css'
+
 
 const Banner = () => {
     return (
-        <div class="hero max-h-screen">
+        <div class="hero">
             <img src={banner1} style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} alt="" />
             <div class="hero-overlay bg-opacity-60"></div>
 

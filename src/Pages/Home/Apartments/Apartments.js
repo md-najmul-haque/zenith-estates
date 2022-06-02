@@ -16,9 +16,9 @@ const Apartments = () => {
     }
 
     return (
-        <div className='mt-12 block'>
-            <h1>Display Latest and Featured Properties</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+        <div>
+            <h1 className='text-4xl font-semibold my-5 text-center'>Display Latest and Featured Properties</h1>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {
                     apartments.map(apartment => <Apartment key={apartment.id} apartment={apartment}></Apartment>)
                 }

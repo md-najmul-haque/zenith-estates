@@ -5,7 +5,7 @@ import Apartment from '../Apartment/Apartment';
 
 const Apartments = () => {
     const { data: apartments, isLoading, error } = useQuery('properties', () =>
-        fetch('products.json').then(res => {
+        fetch('http://localhost:5000/apartments').then(res => {
             console.log(apartments)
             return res.json()
         }
@@ -20,7 +20,7 @@ const Apartments = () => {
             <h1 className='text-4xl font-semibold my-5 text-center'>Display Latest and Featured Properties</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {
-                    apartments.map(apartment => <Apartment key={apartment.id} apartment={apartment}></Apartment>)
+                    apartments.map(apartment => <Apartment key={apartment._id} apartment={apartment}></Apartment>)
                 }
 
             </div>

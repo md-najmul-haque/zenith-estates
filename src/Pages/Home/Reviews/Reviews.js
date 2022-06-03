@@ -1,19 +1,27 @@
-import React from 'react';
-
+import React, { useEffect, useState } from 'react';
 import Loading from 'react-loading';
 import { useQuery } from 'react-query';
 import Review from '../Review/Review';
 
+
 const Reviews = () => {
 
-    const { data: reviews, isLoading, error } = useQuery('reviews', () => fetch(`products.json`).then(res => {
-        console.log(reviews);
-        return res.json()
-    }))
+    const [reviews, setReviews] = useState([])
 
-    if (isLoading === true) {
-        return <Loading />
-    }
+    useEffect(() => {
+        fetch(`reviews.json`)
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, [])
+
+    // const { data: reviews, isLoading, error } = useQuery('reviews', () => fetch('reviews.json').then(res => {
+    //     console.log(reviews);
+    //     return res.json()
+    // }))
+
+    // if (isLoading) {
+    //     return <Loading />
+    // }
 
 
     return (

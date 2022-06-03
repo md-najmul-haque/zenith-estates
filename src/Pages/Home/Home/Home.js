@@ -9,11 +9,12 @@ import WhyWePerfect from '../WhyWePerfect/WhyWePerfect';
 const Home = () => {
     return (
         <div>
-            <Navbar />
+
             <Banner />
             <Apartments />
             <WhyWePerfect />
-            <Footer />
+
+
 
         </div>
     );

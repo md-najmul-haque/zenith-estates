@@ -21,12 +21,12 @@ const Reviews = (props) => {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
             items: 3,
-            slidesToSlide: 3
+            slidesToSlide: 1
         },
         tablet: {
             breakpoint: { max: 1024, min: 600 },
             items: 2,
-            slidesToSlide: 2
+            slidesToSlide: 1
         },
         mobile: {
             breakpoint: { max: 600, min: 0 },
@@ -37,7 +37,7 @@ const Reviews = (props) => {
 
     return (
         <div>
-            <h1>Testimonials</h1>
+            <h1 className='text-6xl font-semibold text-center py-5'>Testimonials</h1>
             <Carousel
                 swipeable={false}
                 draggable={false}

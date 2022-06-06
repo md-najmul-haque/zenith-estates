@@ -1,3 +1,4 @@
+import { primary } from 'daisyui/src/colors';
 import { signOut } from 'firebase/auth';
 import React from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -34,7 +35,7 @@ const Navbar = () => {
         </>
 
     return (
-        <div class="navbar absolute top-0 text-white">
+        <div class={`navbar absolute top-0 ${'/' ? 'text-white' : 'bg-primary'}`}>
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">

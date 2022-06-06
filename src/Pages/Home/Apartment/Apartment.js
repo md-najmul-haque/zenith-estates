@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Apartment = ({ apartment }) => {
     const { name, img, description, price } = apartment;
@@ -14,7 +15,7 @@ const Apartment = ({ apartment }) => {
                 <p>{price}</p>
                 <div class="card-actions justify-end">
                     <div class="badge badge-outline">Add To Cart</div>
-                    <div class="badge badge-outline">Buy Now</div>
+                    <Link to='/purchase' class="badge badge-outline">Buy Now</Link>
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@ import Navbar from '../../Shared/Navbar/Navbar';
 import Apartments from '../Apartments/Apartments';
 import Banner from '../Banner/Banner';
 import Review from '../Review/Review';
+import Reviews from '../Reviews/Reviews';
 import WhyWePerfect from '../WhyWePerfect/WhyWePerfect';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <Banner />
             <Apartments />
             <WhyWePerfect />
+            <Reviews />
 
 
 

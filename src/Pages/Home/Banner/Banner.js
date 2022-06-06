@@ -13,7 +13,7 @@ const Banner = () => {
                 <div class="max-w-3xl">
                     <h1 class="mb-5 text-6xl font-bold">Luxury Villa in New York</h1>
                     <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button class="btn btn-primary">View Project</button>
+                    <button class="btn btn-primary">Explore Project</button>
                 </div>
             </div>
         </div>

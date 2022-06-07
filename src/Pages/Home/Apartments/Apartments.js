@@ -5,7 +5,7 @@ import Apartment from '../Apartment/Apartment';
 
 const Apartments = () => {
     const { data: apartments, isLoading, error } = useQuery('properties', () =>
-        fetch('http://localhost:5000/apartments').then(res => {
+        fetch('https://warm-harbor-60965.herokuapp.com/apartments').then(res => {
             console.log(apartments)
             return res.json()
         }

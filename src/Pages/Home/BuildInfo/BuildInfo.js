@@ -21,8 +21,8 @@ const BuildInfo = () => {
                         <div class="card w-96 bg-base-100 mx-auto">
                             <figure><img src={project.img} alt="Shoes" /></figure>
                             <div class="card-body">
-                                <h2 class="card-title">{project.name}</h2>
-                                <p>{project.description}</p>
+                                <h2 class="card-title">{project.title}</h2>
+                                <p className='text-justify'>{project.description}</p>
                                 <div class="card-actions justify-end">
                                     <button class="btn btn-primary">Talk to an expert</button>
                                 </div>

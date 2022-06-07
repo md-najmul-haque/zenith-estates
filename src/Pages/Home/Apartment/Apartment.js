@@ -14,7 +14,6 @@ const Apartment = ({ apartment }) => {
                 <p className='text-justify'>{description}</p>
                 <p className='text-justify'>Price: $ {price}</p>
                 <div class="card-actions justify-end">
-                    <div class="btn btn-outline btn-primary">Add To Cart</div>
                     <Link to='/purchase' class="btn btn-outline btn-primary">Buy Now</Link>
                 </div>
             </div>

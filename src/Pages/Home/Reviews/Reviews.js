@@ -8,7 +8,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 const Reviews = (props) => {
 
-    const { data: reviews, isLoading, error } = useQuery('reviews', () => fetch('reviews.json').then(res => {
+    const { data: reviews, isLoading, error } = useQuery('reviews', () => fetch('http://localhost:5000/reviews').then(res => {
         console.log(reviews);
         return res.json()
     }))
@@ -57,7 +57,7 @@ const Reviews = (props) => {
                 itemClass="carousel-item-padding-40-px"
             >
                 {
-                    reviews.slice(0, 6).map(review => <Review key={review.id} review={review}></Review>)
+                    reviews.map(review => <Review key={review.id} review={review}></Review>)
                 }
             </Carousel>
         </div>

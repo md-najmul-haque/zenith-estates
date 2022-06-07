@@ -57,7 +57,7 @@ const Reviews = (props) => {
                 itemClass="carousel-item-padding-40-px"
             >
                 {
-                    reviews.map(review => <Review key={review.id} review={review}></Review>)
+                    reviews.slice(0, 6).map(review => <Review key={review.id} review={review}></Review>)
                 }
             </Carousel>
         </div>

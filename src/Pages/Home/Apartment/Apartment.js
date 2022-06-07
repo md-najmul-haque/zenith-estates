@@ -11,11 +11,11 @@ const Apartment = ({ apartment }) => {
                     {name}
                     <div class="badge badge-secondary">NEW</div>
                 </h2>
-                <p>{description}</p>
-                <p>{price}</p>
+                <p className='text-justify'>{description}</p>
+                <p className='text-justify'>Price: $ {price}</p>
                 <div class="card-actions justify-end">
-                    <div class="badge badge-outline">Add To Cart</div>
-                    <Link to='/purchase' class="badge badge-outline">Buy Now</Link>
+                    <div class="btn btn-outline btn-primary">Add To Cart</div>
+                    <Link to='/purchase' class="btn btn-outline btn-primary">Buy Now</Link>
                 </div>
             </div>
         </div>

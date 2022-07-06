@@ -7,7 +7,7 @@
 - Designed to sell apartments. Also, have a banner and testimonial section.  
 - After clicking the buy now button customer will redirect to the purchase page.
 
-## Technologies Used
+### Technologies Used
 - React
 - JavaScript
 - Node.js

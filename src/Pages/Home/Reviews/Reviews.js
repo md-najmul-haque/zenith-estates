@@ -8,7 +8,7 @@ import 'react-multi-carousel/lib/styles.css';
 
 const Reviews = (props) => {
 
-    const { data: reviews, isLoading, error } = useQuery('reviews', () => fetch('https://warm-harbor-60965.herokuapp.com/reviews').then(res => {
+    const { data: reviews, isLoading, error } = useQuery('reviews', () => fetch('http://localhost:5000/reviews/reviews').then(res => {
         console.log(reviews);
         return res.json()
     }))
